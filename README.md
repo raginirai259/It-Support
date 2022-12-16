@@ -29,3 +29,26 @@ Run the application and open the Below URL:
 
 http://localhost:8085/ticket/swagger-ui/index.html
 
+Then create user first : http://localhost:8085/ticket/createUser
+Post body:
+{
+  "name": "RaginiRai",
+  "username": "rags123",
+  "password": "welcome123",
+  "email": "Ragini2011@gmail.com"
+}
+
+then Once user is created you will be able to create ticket and view ,update ,delete and modify:
+
+Post request: http://localhost:8085/ticket/createTicket
+Post Body:
+
+{
+  "title": "Demo title",
+  "description": "Demo description",
+  "userEmail": "Ragini2011@gmail.com"
+}
+
+
+
+
