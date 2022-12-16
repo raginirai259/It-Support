@@ -95,4 +95,15 @@ public class User {
     public void setRoles(Set<UserRole> roles) {
         this.roles = roles;
     }
+
+    @Override
+    public String toString() {
+        return "User{" +
+                "email='" + email + '\'' +
+                ", name='" + name + '\'' +
+                ", username='" + username + '\'' +
+                ", active=" + active +
+                ", roles=" + roles +
+                '}';
+    }
 }
